@@ -4,6 +4,8 @@ function Reactive() {
     return (
         <>
             <h1>Reactive</h1>
+
+            <a href="nested">Nested route</a>
         </>
     )
 }

@@ -3,7 +3,9 @@ import React from "react";
 function Footer() {    
     return (
         <footer>
-            <a href="./">Home</a> | <a href="./domains">What is a domain?</a> | <a href="./reactive">About Reactive</a>
+            <br />
+            
+            <a href="./">Home</a> | <a href="./api">API request</a> | <a href="./reactive">About Reactive</a>
         </footer>
     )
 }
