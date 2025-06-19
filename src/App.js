@@ -4,6 +4,9 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./react/home"
+import Domains from './react/domains';
+import Reactive from './react/reactive';
+import Nested from './react/nested';
 
 import Footer from './react/components/footer';
 
@@ -21,6 +24,7 @@ const router = createBrowserRouter([
     path: "domains",
     element: (
       <>
+        <Domains />
         <Footer />
       </>
     )
@@ -29,6 +33,18 @@ const router = createBrowserRouter([
     path: "reactive",
     element: (
       <>
+        <Reactive />
+
+        <Footer />
+      </>
+    )
+  },
+  {
+    path: "reactive/nested",
+    element: (
+      <>
+        <Nested />
+        
         <Footer />
       </>
     )
