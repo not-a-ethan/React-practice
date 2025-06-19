@@ -5,7 +5,7 @@ function Reactive() {
         <>
             <h1>Reactive</h1>
 
-            <a href="nested">Nested route</a>
+            <a href="/reactive/nested">Nested route</a>
         </>
     )
 }

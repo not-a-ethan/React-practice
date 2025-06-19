@@ -5,7 +5,7 @@ function Footer() {
         <footer>
             <br />
             
-            <a href="./">Home</a> | <a href="./api">API request</a> | <a href="./reactive">About Reactive</a>
+            <a href="/">Home</a> | <a href="/api">API request</a> | <a href="/reactive">About Reactive</a>
         </footer>
     )
 }
