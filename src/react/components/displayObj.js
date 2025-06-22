@@ -1,5 +1,7 @@
 import React from "react";
 
+import List from "./list";
+
 function DisplayObj(props) {
     const obj = props.obj;
     const keys = Object.keys(obj);
@@ -13,12 +15,12 @@ function DisplayObj(props) {
 
     return (
         <ul>
-            {arr.map((item) =>
-                <li key={item[0]}>
-                    <code>{item[0]}</code>: <code>{item[1]}</code>
-                </li>
-            )}
-        </ul>
+            <List>
+                {arr.map((item) =>
+                    <br key={item} />
+                )}
+            </List>
+        </ul>  
     )
 }
 
