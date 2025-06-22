@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: "domains",
+    path: "api",
     element: (
       <>
         <Domains />
