@@ -6,7 +6,7 @@ function Footer() {
             <br />
             <hr />
             
-            <a href="/">Home</a> | <a href="/api">API request</a> | <a href="/reactive">About Reactive</a>
+            <a href="/">Home</a> | <a href="/api">API request</a> | <a href="/reactive">About Reactive</a> | <a href="/chat-app">Chat app</a>
         </footer>
     )
 }
