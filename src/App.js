@@ -3,6 +3,8 @@ import './App.css';
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import { Toaster } from 'react-hot-toast';
+
 import Home from "./react/home"
 import Domains from './react/domains';
 import Reactive from './react/reactive';
@@ -17,6 +19,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Home />
+
         <Footer />
       </>
     )
@@ -26,6 +29,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Domains />
+
         <Footer />
       </>
     )
@@ -45,9 +49,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Nested />
-        
-        <Footer />
-      </>
+              </>
     )
   },
   {
@@ -55,15 +57,19 @@ const router = createBrowserRouter([
     element: (
       <>
         <ChatApp />
-
-        <Footer />
       </>
     )
   }
 ])
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+      <Footer />
+      <Toaster />
+    </>
+  )
 }
 
 export default App;

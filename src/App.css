@@ -1,8 +1,11 @@
 * {
-  background-color: darkblue;
   color: lightgray;
 
   text-align: center;
+}
+
+body {
+  background-color: darkblue;
 }
 
 li {
@@ -11,4 +14,8 @@ li {
 
 hr {
   width: 97.5%;
+}
+
+button {
+  background-color: darkblue;
 }
