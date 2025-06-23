@@ -9,7 +9,7 @@ function Request() {
         .then(response => response.json())
         .then(json => setData(json))
 
-    return data ?/* <span>User ID: {data["userId"]}<br />Id: {data["id"]}<br />Title: {data["title"]}</span>*/ <DisplayObj obj={data} />: "";
+    return data ? <DisplayObj obj={data} />: "";
 }
 
 export default Request;
