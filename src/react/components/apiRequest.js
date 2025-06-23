@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Components
 import DisplayObj from "./displayObj";
 
 function Request() {
@@ -7,7 +8,7 @@ function Request() {
     
     fetch('https://jsonplaceholder.typicode.com/todos/1')
         .then(response => response.json())
-        .then(json => setData(json))
+        .then(json => setData(json));
 
     return data ? <DisplayObj obj={data} />: "";
 }

@@ -9,7 +9,7 @@ function Reactive() {
 
             <a href="/reactive/nested">Nested route</a>
         </>
-    )
-}
+    );
+};
 
 export default Reactive;

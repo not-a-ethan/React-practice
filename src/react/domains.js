@@ -1,5 +1,6 @@
 import React from "react";
 
+// Components
 import Request from "./components/apiRequest";
 
 function Domains() {
@@ -12,7 +13,7 @@ function Domains() {
 
             <Request />
         </>
-    )
-}
+    );
+};
 
 export default Domains;

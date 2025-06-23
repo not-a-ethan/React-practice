@@ -1,6 +1,6 @@
 import React, { Children } from "react";
 
-function List({children}) {
+function List( { children } ) {
 
     return (
         <>
@@ -10,7 +10,7 @@ function List({children}) {
                 </li>
             )}
         </>
-    )
-}
+    );
+};
 
 export default List;

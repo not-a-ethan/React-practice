@@ -1,5 +1,6 @@
 import React from "react";
 
+// Components
 import List from "./list";
 
 function DisplayObj(props) {
@@ -11,7 +12,7 @@ function DisplayObj(props) {
 
     for (let i = 0; i < keys.length; i++) {
         arr.push([keys[i], vals[i]]);
-    }
+    };
 
     return (
         <ul>
@@ -21,7 +22,7 @@ function DisplayObj(props) {
                 )}
             </List>
         </ul>  
-    )
-}
+    );
+};
 
 export default DisplayObj;

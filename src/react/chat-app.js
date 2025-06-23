@@ -1,10 +1,12 @@
 import React from "react";
+
+// Toast
 import toast from 'react-hot-toast';
 
 function ChatApp() {
     function notify() {
         toast('Here is your toast.');
-    }
+    };
 
     return (
         <>
@@ -101,7 +103,7 @@ function ChatApp() {
 
             <p>Data validation is done both on the client and sever side. It is done on the client side to speed up a response to the user as there is no waiting for the sever and it is also done to reduce the load on the server. It is then done again on the server to prevent damage and stop bad actors. Then user data is not direclty put into the SQL statments either. It is put into prepared statmets to prevent SQL injection.</p>
         </>
-    )
-}
+    );
+};
 
 export default ChatApp;
